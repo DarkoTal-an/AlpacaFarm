@@ -1,0 +1,122 @@
+// Importing the bootstrap DEFAULT 
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+
+// Our feature overrides
+
+@import '_reset';
+@import '_colors';
+
+
+
+// IMPORTING BOOTSTRAP !!
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Darko's parts-after the Bootstrap because they enhance
+@import '_header';
+
+
+// Fonts
+
+body {
+  font-size: 17px;
+}
+
+h1, h2 {
+  font-family: 'Londrina Solid', cursive;
+}
+
+// h3, h4, h5 {
+//   font-weight: 300;
+// } - was meant for another font
+
+
+
+h2, h3, h4, h5 {
+  text-align: center;
+  
+}
+
+section {
+  // margin-top: 40px;
+  h2 {
+    padding: 40px 0;
+  }
+
+}
+
+// adding a box-shadow to the main to elevate it from the Page
+main {
+  padding: 15px;
+  box-shadow: 0px 0px 10px 5px  #c4cdd4;
+  border-radius: 10px;
+}
+
+.block {
+  &__tours {
+    h4 {
+      font-weight: bold;
+    }
+  }
+  &__farm {
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &__alpacas {
+      
+    img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+
+}
+.formbox {
+  max-width: 500px;
+  width: 300px;
+}
+
+
+// Darkos' FOOTER
+
+footer {
+  background-color: $gray-300;
+  p {
+      font-size: 18px; 
+      color: $gray-700 ;
+      i {
+          color: red;
+          
+      }
+  }
+}
+
+.social_footer_ul {
+  display:flex; 
+      li {
+      list-style-type:none;
+          a { 
+          color: rgb(9, 136, 136); 
+          padding: 18px;
+          margin-right: 5px ;
+      }
+  }
+
+}
+
+// back to top Btn with JS
+
+.back-to-top {
+  position: fixed;
+  bottom: 45px;
+  right: 25px;
+  // display: inherit;
+}
+

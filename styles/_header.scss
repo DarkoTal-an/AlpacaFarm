@@ -1,0 +1,100 @@
+// NAV BAR 
+
+.scroll .page-header {   //scroll animation
+    background: var(--red);
+  }
+
+  .page-header {
+    transition: background 0.5s ease-in-out;
+  }
+   
+  // HEADER
+  .page-header .navbar {
+    padding: 1rem 0;
+  }
+   
+  .page-header .navbar-toggler {
+    border-color: var(--red); 
+  }
+
+  @media screen and (max-width: 991px) {
+    .page-header {
+      background: lightblue;
+    }
+    // .navbar{
+    //     background: var(--lightblue);
+    // }
+
+    // .navbar-toggler {
+    //     background-color: var(--lightblue);
+        
+    // }
+    // adding text shadow to elevate it from background
+    .navbar-collapse .navbar-nav .nav-link {
+      color: red;
+      text-align: right;
+    }
+    .navbar-collapse .navbar-nav .nav-link:hover {
+      color: red;
+      text-decoration: underline;
+    }
+    
+  }
+
+  @media screen and (min-width:992px) {
+    .bg-transparent {
+      background: transparent;
+      transition: 0.5s ease;
+    }
+    
+    .bg-transparent.scrolled {
+      background: rgba(240, 248, 255, 0.883) !important;
+    }
+
+    .navbar-collapse .navbar-nav .nav-link {
+      color: red;
+      font-size: 18px;
+      text-shadow: 2px 1px black;
+    }
+    // adding text shadow to elevate it from background
+    .navbar-brand > h2 {
+      color: red;
+      text-shadow: 2px 2px black;
+    }
+    .navbar-collapse .navbar-nav .nav-link:hover {
+      color: red;
+      text-decoration: underline;
+    }
+  }
+
+  
+// HERO IMAGE - Section
+
+  .scroll .hero {     
+    transform: scale(0.98);//scroll animation
+  }
+   
+  .hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: transform 0.5s ease-in-out;
+  }
+   
+  .hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5) 0,
+      rgba(0, 0, 0, 0.3) 50%,
+      rgba(0, 0, 0, 0.1) 100%
+    );
+  }
+   
+  .hero .container-fluid {
+    z-index: 10;
+  }

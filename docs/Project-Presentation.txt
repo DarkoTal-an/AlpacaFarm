@@ -1,0 +1,71 @@
+PRESENTATION: TEAM MELANIE, KEVIN & DARKO
+
+-went through the requirements, the instructions,...
+
+-plan started with the structure of our HTML: we decided to make it as in wireframe and divide it to 3 parts 
+ 
+  -decided to work and go with the flow and make decisions as we progress. aftre a few tries , we all decided to use BOOTSTRAP for the parts thus the whole Project!
+		-we used SCSS as well-installed bootstrap through terminal and included JS for some parts!
+
+  -we then made a forked project repo as our mutual Git repo with one working branch and feature branches with our names for pushing from local
+			we all pushed and merged and then pulled the first version (the structure in html) as our 1. team GitHub colaboration!
+
+
+-division of work
+	-3 PARTS= 
+			;Darko- Header & Footer ( added the back to top btn; JS ; where i found it...)
+			;Kevin- First half of main -(About, Farm, Alpacas, Tours)
+			;Melanie-Acomodation, farm Shop, Contact ( colors, design, linking the section to nav-bar, fonts)
+		
+		1. day-we had all our parts working separately-
+		2. day-we merged the brancehs and solved conflicts-landing page was working!
+			afterwords we tackled the design, colors, functioning of navigation and hero image...
+				
+		3. day merge problems-we learned a lot from our mistakes and how GitHub works and that was great challenge in this project
+				we tackeld the finishing, the finess(margins, colors for the last time, text-decoration for links...
+				
+We met on friday (una hora because Melanie couldn't participate on Thursday after 14 h)to speak about what we did , what we could have done better, what we should do in the next Sprint/part
+- and spoke about the presentation of the project on Monday! ;-)
+
+------------------------------------------------------------------------------------				
+TALKING ABOUT PARTS INCLUDES :-WHAT EACH OF YOU LEARNED IN / FROM EXERCISE;
+							 -WHAT WE COULD HAVE IMPROVED IN OUR PARTS 
+		Kevin-talk about his part:
+		
+		Melanie about hers:
+		
+		Darko- his part: started with making own nav-bar than tried the bootstrap versions-found the one from our exercise (https://webdesign.tutsplus.com/tutorials/how-to-build-a-landing-page-with-bootstrap-4--cms-32519)
+						   we decided to implement this one
+						used idea for a footer from a much bigger and complexer one 
+						tackled the responsivness; the transparancy; deducting parts and figuring out how it works and why...started to include JS for it 
+						  used fonts awesome for icons in the footer
+						decided to add a back-to-top btn as a bonus feature: problems with code-with understanding Js behind it...
+						   hero img-centering-positioning; text inside; Joke as a blockquote
+						aligning the nav-bar titel ; links right/space between; bigger font, bold,change of text-color and bg-color...working with media queries	
+						
+						Better: navigation borders: hover off to close auto when mobile; icons hover, btn appears/ disappears and is fluid transition...
+						
+-------------------------------------------------------------------------------------------------------------------------------						
+				WHAT HAVE WE LEARNED AS A TEAM AND WISH TO EMPHASIZE:
+				-the commmunication is vital, making decisions, prioritizing
+				-teamwork-important-showing the code
+				-beeing flexible-to be able to adapt to a change, to accept a problem and try another way
+				-making a buffer -for unexpected situations
+				-comments were good; using Readme as help for commenting and following the adjustments;
+				
+				
+		Melanie talks about what we could have improved in general:	
+			-try to plan better and smaller tasks before merging*
+		-design was not of great importance-it was introduced in requirements-to much time though
+		-cleaning the code; 	 
+		-bootstrap theming was a problem and we should improve;
+		-bem, variables usage..
+		-asking the client to aquire the content/text;	
+			-COMMON MISTKES AND PROBLEMS:
+				-directory paths(with or without a / or .. ;
+				-bootstrap versions are the same -bootsrap installed"version. 4.6" implementing 5.0 stuff! errors appear :-D
+			
+-------------------------------------------------------------------------------------------------------------------------------------------------------		
+	-Q & A ?
+
+			

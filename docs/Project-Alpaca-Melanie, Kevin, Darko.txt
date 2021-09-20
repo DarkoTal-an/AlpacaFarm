@@ -1,0 +1,64 @@
+Project-plan:               self-nominated and self-appointed project "servant" -Drako
+
+	>>wireframework has been taken into considerationas a Guideline<<
+			
+			GitHub workflow introduction and first attempts
+			-smaller task-dividing what and who
+			
+			
+			
+			
+			
+			
+			
+			
+-----NOTES-----------------DARKOS' PARTS (header and footer)------------------------------------------------------------			
+	#Navbars are hidden by default when printing. Force them to be printed by adding .d-print to the .navbar. See the display utility class.	
+	
+	=tackkle the title-span...
+	=the breakpionts
+	 = back up button !!
+	 
+	 = footer flex with icons //
+	
+	
+	
+	start using sass watch from termimnal
+	
+	header 
+	background to header
+	section- smaller-center it
+			
+		Box -shadowing the sections and / or cards
+		-every second section other 
+		
+		Fonts size -difenrent size for different elements	
+			
+			
+			
+			
+			
+			
+			
+			
+-----Timetable------------------------------------------------------------------------
+schedule for 3 days:		
+		today - general setup
+		first half tomorrow - variables, fonts, colors
+		second half tomorrow - assesment and special stuff
+			
+			
+			
+			
+			
+			
+			
+-----General-------------------------------------------------------------------------
+		3 DAYS
+		9-16 H
+		
+		
+		
+		
+		
+			

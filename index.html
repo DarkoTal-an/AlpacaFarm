@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/2919834eac.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400&family=Raleway:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>The Happy Alpaca</title>
+  </head>
+
+  <!--  BODY begins -->
+  <body>
+    <!-- the NAVIGATION-bar -->
+    <!-- Darkos'part I has been changed-hero image is outside the header// *opt. means Optional-->
+    <header class="fixed-top page-header rounded-bottom">
+      <!--opt.bg-light  -->
+      <div class="container-fluid container-fluid-max p-0">
+        <nav
+          id="navbar"
+          class="navbar navbar-expand-lg navbar-light bg-transparent px-3"
+        >
+          <!--opt. navbar-light bg-transparent -->
+          <a class="navbar-brand" href="#home"
+            ><img
+              src="images/logo/alpaca.svg"
+              style="width: 50px; height: 50px"
+              alt="logo"
+            />
+            <h2 class="d-inline align-middle ml-2">THE HAPPY ALPACA</h2></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-lg-between"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav ml-auto font-weight-bold">
+              <!-- margin left auto to move nav-bar links Left-->
+              <li class="nav-item">
+                <a class="nav-link" href="#home">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#farm">Farm</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#alpacas">Alpacas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tours">Tours</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#stay">Stay</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#shop">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Hero Image -->
+    <section
+      class="d-flex align-items-center position-relative cover hero m-0"
+      style="
+        background-image: url(images/alpacas/alpacas\ feeding.jpg);
+        height: 70vh;
+      "
+    >
+      <div class="container-fluid container-fluid-max">
+        <div class="row">
+          <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+            <h1 class="text-white">Welcome to the happy farm!</h1>
+            <div class="mt-3">
+              <blockquote class="blockquote text-light text-center">
+                <p class="mb-0">"Wanna go on a picnic? Alpaca lunch..."</p>
+                <footer class="blockquote-footer bg-transparent text-light">
+                  Gismo<cite title="Source Title"></cite>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAIN begins-->
+    <main class="col-11 col-sm-10 col-md-9 mx-auto p-0">
+      <!-- About   -->
+      <section id="home" class="block__about mt-5 pb-4">
+        <h2>About</h2>
+        <p class="text-center px-5">
+          The Happy Alpaca Farm is a fictive farm everyone can enjoy. Book a
+          tour with our friedly alpacas or explore the meadows and woods around
+          the while enjoying a happy stay with the whole family.
+        </p>
+      </section>
+
+      <!-- The farm new -->
+
+      <section class="block__farm bg-grey pb-4" id="farm">
+        <h2>The Farm</h2>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="p-3 col-6 col-xl-3">
+              <img
+                class="img-fluid"
+                src="images/farm/StockSnap_49FA273DDD.jpg"
+                alt=""
+              />
+            </div>
+            <div class="p-3 col-6 col-xl-3">
+              <img
+                class="img-fluid"
+                src="images/farm/StockSnap_BWRCGCOECB.jpg"
+                alt=""
+              />
+            </div>
+            <div class="p-3 col-6 col-xl-3">
+              <img
+                class="img-fluid"
+                src="images/farm/StockSnap_QZZC02VYSS.jpg"
+                alt=""
+              />
+            </div>
+            <div class="p-3 col-6 col-xl-3">
+              <img
+                class="img-fluid"
+                src="images/farm/StockSnap_V9YD0J883E.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MEET THE ALPACAS -->
+
+      <section class="block__alpacas" id="alpacas">
+        <h2>The Alpacas</h2>
+        <div class="d-flex justify-content-around flex-wrap">
+          <div class="d-flex m-3 flex-column">
+            <img src="images/alpacas/balou.jpg" alt="" />
+            <h4>Balou</h4>
+          </div>
+
+          <div class="d-flex m-3 flex-column">
+            <img src="images/alpacas/gismo.jpg" alt="" />
+            <h4>Gismo</h4>
+          </div>
+
+          <div class="d-flex m-3 flex-column">
+            <img src="images/alpacas/hardi.jpg" alt="" />
+            <h4>Hardi</h4>
+          </div>
+          <div class="w-100 d-md-none"></div>
+          <div class="d-flex m-3 flex-column">
+            <img src="images/alpacas/kalle.jpg" alt="" />
+            <h4>Kalle</h4>
+          </div>
+          <div class="d-flex m-3 flex-column">
+            <img src="images/alpacas/king.jpg" alt="" />
+            <h4>King</h4>
+          </div>
+
+          <div class="d-flex m-3 flex-column">
+            <img src="images/alpacas/scotty.jpg" alt="" />
+            <h4>Scotty</h4>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tours new  -->
+
+      <section class="block__tours bg-grey" id="tours">
+        <h2>Guided Tours</h2>
+        <div class="row row-cols-1 row-cols-xl-3 g-4 mx-2 py-4">
+          <div class="col my-2">
+            <div class="card h-100 p-2">
+              <!--  -->
+              <div class="card-body d-flex flex-column">
+                <h4 class="card-title">1 day tour</h4>
+                <p class="card-text">
+                  Book a tour with our friendly alpacas and explore the meadows
+                  and woods around the farm.
+                </p>
+                <ul>
+                  <li>Guided Tour for 2 Adults</li>
+                  <li>Breakfast and Lunch included</li>
+                  <li>One Picture with your favorite Alpaca</li>
+                </ul>
+                <p class="card-text my-5">Prices starting from 50 EUR</p>
+                <div class="text-center mt-auto">
+                  <a href="#" class="btn btn-info px-5">BOOK NOW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- !! -->
+          <div class="col my-2">
+            <div class="card h-100 p-2">
+              <div class="card-body d-flex flex-column">
+                <h4 class="card-title">2 day tour</h4>
+                <p class="card-text">
+                  Book a tour with our friendly alpacas and explore the meadows
+                  and woods around the farm.
+                </p>
+                <ul>
+                  <li>Guided Tour for 2 Adults</li>
+                  <li>One night in our beautiful hotel</li>
+                  <li>Breakfast and Lunch included</li>
+                  <li>One Picture with your favorite Alpaca</li>
+                </ul>
+                <p class="card-text">
+                  After the tour you enjoy the rest of your stay in our cosy
+                  accomodation with fireplace and perfect view from the windows.
+                </p>
+                <p class="card-text my-5">Prices starting from 100 EUR</p>
+                <div class="text-center mt-auto">
+                  <a href="#" class="btn btn-info px-5">BOOK NOW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="col my-2">
+            <div class="card h-100 p-2">
+              <div class="card-body d-flex flex-column">
+                <h4 class="card-title">3 day tour</h4>
+                <p class="card-text">
+                  Book a tour with our friendly alpacas and explore the meadows
+                  and woods around the farm.
+                </p>
+                <ul>
+                  <li>Guided Tour for 2 Adults</li>
+                  <li>Two nights in our beautiful hotel</li>
+                  <li>Breakfast and Lunch included</li>
+                  <li>One Picture with your favorite Alpaca</li>
+                </ul>
+                <p class="card-text">
+                  After the tour you enjoy the rest of your stay in our cosy
+                  accomodation with fireplace and perfect view from the windows.
+                </p>
+                <p class="card-text my-5">Prices starting from 150 EUR</p>
+                <div class="text-center mt-auto mx-auto">
+                  <a href="#" class="btn btn-info px-5">BOOK NOW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Accommodation -->
+
+      <section class="block__accomodation pb-4" id="stay">
+        <h2>Accommodation</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mx-2">
+          <div class="col">
+            <div class="card h-100 border-0">
+              <img
+                src="./images/accommodation/Acc_Nature.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h4 class="card-title">Enjoy the Nature</h4>
+                <p class="card-text">
+                  Wonderful forest and fields surround our farm. There is so
+                  much to discover. Unwind and enjoy fresh country air.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0">
+              <img
+                src="./images/accommodation/Acc_Relax.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h4 class="card-title">Relax</h4>
+                <p class="card-text">
+                  There is nothing more relaxing than exploring the surroundings
+                  with an alpaca. You will quickly get used to your new friend
+                  and have unforgettable adventures.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0">
+              <img
+                src="./images/accommodation/Acc_Cabine.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h4 class="card-title">The Cabine</h4>
+                <p class="card-text">
+                  Spend your night in our stunning lakeside cabin. Light a fire
+                  in the fireplace and enjoy a good book and a glass of wine
+                  from our farm store. Pure relaxation.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="m-4 text-center">
+          <p class="w-75 mx-auto">
+            Could we convince you of our range of products? Then what are you
+            waiting for? Contact us via the contact form and ask for your
+            individual offer. We will get back to you as soon as possible to
+            make your stay unforgettable.
+          </p>
+          <button
+            type="button"
+            class="btn btn-info text-uppercase col-6 col-md-4"
+          >
+            Book Now
+          </button>
+        </div>
+      </section>
+
+      <section class="block__shop bg-grey pb-4" id="shop">
+        <h2>The Farm Shop</h2>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 mx-2">
+          <div class="col">
+            <div class="card h-100 border-0">
+              <img
+                src="./images/farm-shop/Shop_Coffee.jpg"
+                class="card-img-top"
+                alt="Coffee Shop"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Coffee</h4>
+                <p class="card-text">
+                  Enjoy our coffee variety of filter coffee, cold brew,
+                  capucchino and other specialities. Freshly prepared daily by
+                  our trained baristas with love.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0">
+              <img
+                src="./images/farm-shop/Fruits_Bread.jpg"
+                class="card-img-top"
+                alt="Bakery"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Bread</h4>
+                <p class="card-text">
+                  Our country bakery bakes daily fresh and handmade baked goods
+                  from the stone oven. Let us surprise you with a wide variety
+                  of breads and cakes.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0">
+              <img
+                src="./images/farm-shop/Shop_Fruits.jpg"
+                class="card-img-top"
+                alt="Fruits"
+              />
+              <div class="card-body">
+                <h4 class="card-title text-center">Fruits</h4>
+                <p class="card-text">
+                  Fresh saesonal fruit from our orchards and sourrounding farms.
+                  We offer everything that can be harvested to the current
+                  season in the best organic quality you can get.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="block__contact pb-4" id="contact">
+        <h2>Contact Us</h2>
+
+        <form
+          class="mx-3 col-10 col-sm-8 col-md-7 col-xl-5 mx-auto bg-grey py-3 rounded"
+        >
+          <!-- Name input -->
+          <div class="form-outline mb-3">
+            <label class="form-label" for="name">Your Name</label>
+            <input type="text" id="name" class="form-control" />
+          </div>
+
+          <!-- Email input -->
+          <div class="form-outline mb-3">
+            <label class="form-label" for="email">Your email</label>
+            <input type="email" id="email" class="form-control" />
+          </div>
+
+          <!-- Message input -->
+          <div class="form-outline mb-3">
+            <label class="form-label" for="textfield">Your message</label>
+            <textarea class="form-control" id="textfield" rows="4"></textarea>
+          </div>
+
+          <!-- Checkbox -->
+          <div class="form-check d-flex mb-4">
+            <input
+              class="form-check-input me-2"
+              type="checkbox"
+              value=""
+              id="form4Example4"
+              checked
+            />
+            <label class="form-check-label" for="form4Example4">
+              Send me a copy of this message
+            </label>
+          </div>
+
+          <!-- Submit button -->
+          <button
+            type="submit"
+            class="btn btn-info btn-block mb-4 text-uppercase w-50"
+          >
+            Send
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Back to Top Btn -->
+
+    <div id="back-to-top" class="back-to-top text-right">
+      <a href="#" class="btn btn-info btn-lg back-to-top" role="button"
+        ><i class="fas fa-chevron-up"></i
+      ></a>
+    </div>
+
+    <!-- Darkos'part II -the FOOTER-->
+    <footer class="footer rounded-top">
+      <div class="container p-3">
+        <p class="text-center">
+          Designed With <sub><i class="far fa-heart fa-2x"></i></sub> by
+          <a href="#"><strong>Melanie | Kevin | Drako</strong></a> using
+          <a
+            href="https://getbootstrap.com/docs/5.0/getting-started/introduction/"
+            >Bootstrap</a
+          >
+        </p>
+        <ul class="social_footer_ul justify-content-center">
+          <li>
+            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Bootstrap Script -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+    <!-- scroll down nav-bar background JS -->
+    <script>
+      $(window).scroll(function () {
+        $("nav").toggleClass("scrolled", $(this).scrollTop() > 80);
+      });
+    </script>
+    <!-- back-to-top btn JS -->
+    <script>
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 150) {
+            $("#back-to-top").fadeIn();
+          } else {
+            $("#back-to-top").fadeOut();
+          }
+        });
+        // scroll body to 0px on click
+        $("#back-to-top").click(function () {
+          $("body,html").animate(
+            {
+              scrollTop: 0,
+            },
+            290
+          );
+          return false;
+        });
+      });
+    </script>
+
+    <!-- end of BODY -->
+  </body>
+</html>
